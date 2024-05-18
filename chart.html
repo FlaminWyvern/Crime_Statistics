@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="data.js"></script>
+  </head>
+  <body onload = "getData()">
+    <h1>The Crime Statistics of Buffalo, NY</h1> <br>
+    <h2>1: Bar Graph</h2>
+    <div id="bar"></div>
+    <h2>2: Pie Chart</h2>
+    <div id="pie"></div>
+    <h2>3: Line Graph</h2>
+    Hour: <input type="text" placeholder = "Enter in 24 hr format" id="hour"></input>
+    <button onClick="getHourData()">Plot it!</button>
+    <div id="line"></div>
+  </body>
+</html>
